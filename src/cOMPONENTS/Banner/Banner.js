@@ -5,10 +5,6 @@ import img3 from '../../assets/images/banner/3.jpg'
 import img4 from '../../assets/images/banner/4.jpg'
 import img5 from '../../assets/images/banner/5.jpg'
 import img6 from '../../assets/images/banner/6.jpg'
-// import img7 from '../../assets/images/banner/7.jpg'
-
-
-
 import BannerItem from './../BannerItem/BannerItem';
 
 const bannerData = [

@@ -2,7 +2,9 @@ import React from 'react';
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import img from '../../assets/images/login/login.svg';
-import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
+import { AuthContext } from '../../Context/AutProvider';
+// import  { AuthContext } from '../../Context/AutProvider';
+
 
 const SignUp = () => {
     const {createUser} = useContext(AuthContext);

@@ -1,5 +1,4 @@
 import React from 'react';
-
 const ServiceCard = ({service}) => {
     const {img, price, title} = service;
     return (

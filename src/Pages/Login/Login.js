@@ -26,6 +26,7 @@ const Login = () => {
         .then( result => {
             const user = result.user;
             console.log(user);
+            fetch('http://localhost:5000/jwt')
             navigate(from, {replace : true})
         })
         .then(error => console.log(error));
